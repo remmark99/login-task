@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/login-task/static/css/main.3fdbea7e.css",
+    "main.js": "/login-task/static/js/main.22f26ac0.js",
+    "static/media/bg-01.webp": "/login-task/static/media/bg-01.10201a0e4c94778db25b.webp",
+    "index.html": "/login-task/index.html",
+    "main.3fdbea7e.css.map": "/login-task/static/css/main.3fdbea7e.css.map",
+    "main.22f26ac0.js.map": "/login-task/static/js/main.22f26ac0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fdbea7e.css",
+    "static/js/main.22f26ac0.js"
+  ]
+}
