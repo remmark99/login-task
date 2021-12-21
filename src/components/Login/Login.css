@@ -1,0 +1,156 @@
+.login {
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 65px 55px 55px;
+    text-align: center;
+    color: #666;
+}
+
+.login a {
+    transition: .4s;
+}
+
+.login a:hover {
+    color: #a64bf4;
+}
+
+.login span {
+    font-size: 14px;
+}
+
+.login > span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login__heading {
+    font-size: 39px;
+    padding-bottom: 50px;
+    color: #333;
+}
+
+.login__form {
+    text-align: left;
+}
+
+.login__form label {
+    font-size: 14px;
+}
+
+.login__field {
+    position: relative;
+}
+
+.login .login__icon {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 22px;
+}
+
+.login__form div:first-child {
+    margin-bottom: 25px;
+}
+
+.login__form input {
+    height: 55px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #D9D9D9;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 40px;
+    color: black;
+}
+
+.login__form input::placeholder {
+    color: #adadad;
+}
+
+.login__form input:focus {
+    border-bottom: 2px solid #7F7F7F;
+    transition: .4s;
+}
+
+.login__form input:focus + span {
+    color: #a64bf4;
+}
+
+.login__form input:focus::placeholder {
+    color: transparent;
+}
+
+.login__form button {
+    height: 50px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: block;
+    width: 100%;
+    background: -webkit-linear-gradient(left,#00dbde,#fc00ff);
+    outline: 0;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    margin: 30px 0 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login__forgot {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    padding-top: 8px;
+    color: #333;
+}
+
+.login__icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 155px;
+}
+
+.login__oauth {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: .4s;
+}
+
+.login .login__oauth:hover {
+    background-color: black;
+    color: white;
+}
+
+.login__signup {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+}
+
+.bg1 {
+    background-color: #3b5998;
+}
+
+.bg2 {
+    background-color: #1da1f2;
+}
+
+.bg3 {
+    background-color: #ea4335;
+}
+
+.login__nonempty input {
+    border-bottom: 2px solid #7F7F7F;
+}
+
+.login__nonempty span {
+    color: #a64bf4;
+}
